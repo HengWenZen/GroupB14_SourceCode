@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowComplaintDetailsResidence">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="357dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout10">
+
+        <TextView
+            android:id="@+id/tvDateTimeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date" />
+
+        <TextView
+            android:id="@+id/tvDateTimeContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DateContent"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="353dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
+
+        <TextView
+            android:id="@+id/tvIssueDescriptionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Issue Description" />
+
+        <TextView
+            android:id="@+id/tvIssueDescriptionContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IssueDescriptionContent"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="126dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout10"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvStatusTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status" />
+
+        <TextView
+            android:id="@+id/tvStatusContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="StatusContent"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="357dp"
+        android:layout_height="238dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <TextView
+            android:id="@+id/tvPictureEvidenceTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Picture Evidence" />
+
+        <ImageView
+            android:id="@+id/ivPictureEvidenceContent"
+            android:layout_width="337dp"
+            android:layout_height="192dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/image_view_border"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+            app:srcCompat="@android:drawable/ic_menu_report_image" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="357dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvIdTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complaint ID" />
+
+        <TextView
+            android:id="@+id/tvIdContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IdContent"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDeleteComplaintResidence"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/red_round_button"
+        android:text="DELETE"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnUpdateProgressAdmin"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_button"
+        android:text="UPDATE PROGRESS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout90"
+        android:layout_width="353dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <TextView
+            android:id="@+id/tvRemarksTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remarks" />
+
+        <TextView
+            android:id="@+id/tvRemarksContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RemarksContent"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

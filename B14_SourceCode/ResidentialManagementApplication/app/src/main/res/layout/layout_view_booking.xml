@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="20dp"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:id="@+id/bookingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_bookingFacilitiesName"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="126dp"
+            android:padding="10dp"
+            android:text="Facilities Name"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_BookingdateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_bookingFacilitiesName"
+            android:padding="10dp"
+            android:layout_marginStart="10dp"
+            android:text="14-11-2021"/>
+
+        <TextView
+            android:id="@+id/tv_BookingTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_bookingFacilitiesName"
+            android:layout_toRightOf="@+id/tv_BookingdateTime"
+            android:padding="10dp"
+            android:text="Time" />
+        <TextView
+            android:id="@+id/tv_BookingUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_bookingFacilitiesName"
+            android:layout_toRightOf="@+id/tv_BookingTime"
+            android:visibility="invisible"
+            android:padding="10dp"
+            android:text="Unit : 1A-12-1" />
+
+        <Button
+            android:id="@+id/btn_cancelBooking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="Cancel Book" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

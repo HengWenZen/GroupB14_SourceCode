@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".TimeSlotBooking">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/tvShowDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightBlue"
+            android:padding="20sp"
+            android:layout_centerHorizontal="true"
+            android:text="2021\n 10 November "
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+        <ImageButton
+            android:id="@+id/imagebtn_editDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="15sp"
+            android:background="@color/lightBlue"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/ic_calendar" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/btn_book"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book"
+        />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Skyview Residence</string>
+    <string name="date_picker_title">Date Picker</string>
+    <string-array name="unit">
+        <item>1A-12-1</item>
+        <item>1A-12-2</item>
+        <item>1A-12-3</item>
+        <item>1A-12-4</item>
+        <item>1A-12-5</item>
+        <item>1A-12-6</item>
+    </string-array>
+    <string-array name="status">
+        <item>Rejected</item>
+        <item>In Progress</item>
+        <item>Solved</item>
+    </string-array>
+</resources>

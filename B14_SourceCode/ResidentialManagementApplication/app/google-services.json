@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "849473282411",
+    "project_id": "projectdemo-f12d2",
+    "storage_bucket": "projectdemo-f12d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849473282411:android:9751ea0d8f41f526d42c2e",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849473282411-dnnaa9kl5dtde28oe84mg7t18esuhrrb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7PqYWFl5z9bf8LAV3FlcX4hDKo8pLyf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849473282411-dnnaa9kl5dtde28oe84mg7t18esuhrrb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849473282411:android:585f4454838ff322d42c2e",
+        "android_client_info": {
+          "package_name": "com.example.residentialmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849473282411-dnnaa9kl5dtde28oe84mg7t18esuhrrb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7PqYWFl5z9bf8LAV3FlcX4hDKo8pLyf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849473282411-dnnaa9kl5dtde28oe84mg7t18esuhrrb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849473282411:android:8b826f9830ef6a27d42c2e",
+        "android_client_info": {
+          "package_name": "com.example.residentialmanagementapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849473282411-dnnaa9kl5dtde28oe84mg7t18esuhrrb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7PqYWFl5z9bf8LAV3FlcX4hDKo8pLyf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849473282411-dnnaa9kl5dtde28oe84mg7t18esuhrrb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

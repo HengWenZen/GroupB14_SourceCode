@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/condominium"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitleAdminLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skyview Residence"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <TextView
+        android:id="@+id/tvTitle2AdminLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Residential Management System"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleAdminLogin"
+        app:layout_constraintVertical_bias="0.004" />
+
+    <Button
+        android:id="@+id/btnLoginAdminLogin"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/round_button"
+        android:text="Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.887" />
+
+    <EditText
+        android:id="@+id/etPasswordAdminLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="13"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmployeeNumberAdminLogin"
+        app:layout_constraintVertical_bias="0.113" />
+
+    <EditText
+        android:id="@+id/etEmployeeNumberAdminLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="13"
+        android:hint="Employee Number"
+        app:layout_constraintBottom_toTopOf="@+id/btnLoginAdminLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle2AdminLogin"
+        app:layout_constraintVertical_bias="0.295" />
+
+    <TextView
+        android:id="@+id/tvResidenceLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Residence"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLoginAdminLogin"
+        app:layout_constraintVertical_bias="0.322" />
+
+    <TextView
+        android:id="@+id/tvAdminTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADMIN ACCOUNT"
+        app:layout_constraintBottom_toTopOf="@+id/etEmployeeNumberAdminLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle2AdminLogin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
